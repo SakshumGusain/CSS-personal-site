@@ -1,0 +1,175 @@
+/*...........................CSS for tags............................*/
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.33rem;
+}
+
+h1{
+    margin-top: 5rem;
+    margin-bottom: 0;
+    font-family: 'Reenie Beanie', cursive;
+    /* font-size: 500%; (100% = 16px) */
+    font-size: 5rem;  /* 1em = 16px */
+    font-weight: bold;
+    color: #7C83FD;
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+    margin: 0 auto auto auto;
+    font-weight: 600;
+    color: #1C6DD0;
+    padding: 1%;
+}
+
+h3{
+    font-size: 1.23rem;
+    color: #11999E;
+    padding: 1% 0 1% 0;
+}
+
+p{
+    font-size: 1.1rem;
+    color: rgb(97, 93, 93);
+}
+
+a{
+    color: #1C6DD0;
+    font-size: 1.1rem;
+    margin: 0 0.1875rem 0 0.1875rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+span{
+    text-decoration: underline;
+
+}
+
+hr{
+    width: 5%;
+    padding: 0.2% 0 0.2% 0;
+    border-style: dotted;
+    border-width: 0.5rem 0 0 0;
+    color: #d3edea;
+    
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+
+/*........................CSS for class.............................*/
+
+.bottomCloud{
+    position: absolute;
+    left: 29%;
+    top: 40%;
+}
+
+.topCloud{
+    position: absolute;
+    right: 25%;
+    top: 6%;
+}
+
+.mountain{
+    align-content: center;
+    width: 50%;
+    height: 40%;
+}
+
+.profile{
+    position: relative;
+}
+
+.profile-img{
+    border-radius: 50%;
+    position: relative;
+    height: 270px;
+    width: 250px;
+}
+
+.skill-row{
+    margin: 3rem auto 6.7rem auto;
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.skill-img1{
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img2{
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.change-width{
+    width: 40%;
+    margin: 0 auto 1.1rem auto;
+}
+
+.btn{
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    margin-top: 1.5rem;
+    border-style: solid;
+    border-color: #1C6DD0;
+    color: #C6DCE4;
+    padding: 4px 7px 4px 7px ;
+    border-radius: 6px;
+    box-shadow: 0px -2px 2px 1px royalblue;
+    text-decoration: none;
+    background-color: #1C6DD0;   
+}
+
+.btn:hover{
+    color: black;
+    background-color: #7DEDFF;
+    border-color: #7DEDFF;
+    box-shadow: 0px -2px 2px 1px #7DEDFF;
+}
+
+.copywrite{
+    color: aliceblue;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+.end-container{
+    background-color: #90cce8;
+    padding: 1%;
+    box-shadow: 0px -2px 5px 5px #90cce8;
+}
+
+.mid-container{
+    background-color: #F9F9F9;
+    padding: 2%;
+}
+
+.top-container{
+    background-color: #CAF0F8;
+    position: relative;
+    padding-top: 5%;
+    width: 100%;
+    box-shadow: 0px 2px 12px 14px #caf0f8;
+}
+
+
+
